@@ -1,0 +1,8 @@
+#ignore node modules
+node_modules
+
+#ignore json files
+*.json
+
+#ignore api connection
+api-connection.php

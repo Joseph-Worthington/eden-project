@@ -1,0 +1,71 @@
+* {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+th {
+  font-size: 2rem;
+}
+
+td {
+  font-size: 1.6rem;
+}
+
+.table {
+  width: 100%;
+  padding: 60px 0;
+}
+.table td {
+  border: black 1px solid;
+  padding: 2rem;
+  text-align: center;
+}
+.table th {
+  border: black 1px solid;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+form {
+  position: relative;
+}
+form input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+form input:focus {
+  outline: none;
+}
+form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+form button:focus {
+  outline: none;
+}
+form button:hover svg {
+  fill: #333;
+}
+
+/*# sourceMappingURL=style.css.map */
